@@ -2,6 +2,7 @@
 
 * Студент: [Григор Мкртчян](https://up.htmlacademy.ru/htmlcss-individual/2/user/2552419).
 * Наставник: [КОТ КЕКС](https://fsb102.ru).
+[Сайт личного проекта](https://grigormkr.github.io/2552419-sedona-2/)
 
 ---
 
