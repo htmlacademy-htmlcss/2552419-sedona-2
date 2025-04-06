@@ -2,28 +2,55 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Седона</title>
     <style>
-        .video-container {
+        .video-wrapper {
             max-width: 853px;
             margin: 0 auto;
+            position: relative;
+            padding-bottom: 56.25%; /* Соотношение 16:9 */
+            height: 0;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .mobile-notice {
+            display: none;
+            text-align: center;
+            color: #666;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-notice {
+                display: block;
+            }
         }
     </style>
 </head>
 <body>
-
     <p>РАССКАЗ ЛЕВОНА МКРТЧЯНА О ГЕНОЦИДЕ</p>
 
-    <div class="video-container">
+    <div class="video-wrapper">
         <iframe
-            src="https://vk.com/video_ext.php?oid=13390212&id=456239242&hd=2"
-            width="853"
-            height="480"
-            frameborder="0"
+            src="https://vk.com/video_ext.php?oid=13390212&id=456239242&hd=2&mobile=1"
             allowfullscreen
-            allow="autoplay; encrypted-media; picture-in-picture">
+            allow="autoplay; encrypted-media; picture-in-picture; accelerometer; gyroscope"
+            playsinline
+            webkit-playsinline>
         </iframe>
     </div>
 
+    <div class="mobile-notice">
+        Если видео не воспроизводится, нажмите на него
+    </div>
 </body>
 </html>
