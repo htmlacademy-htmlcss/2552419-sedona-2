@@ -19,12 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Закрытие модального окна при клике вне его
-  modalContainer.addEventListener('click', function(e) {
-    if (e.target === modalContainer) {
-      modalContainer.style.display = 'none';
-    }
-  });
 
   // Кнопки увеличения/уменьшения количества
   const countButtons = document.querySelectorAll('.count-number');
@@ -113,3 +107,4 @@ flatpickr("#date-departure", {
   minDate: "today",
   locale: "ru",
 });
+
