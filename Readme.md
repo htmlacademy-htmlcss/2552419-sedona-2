@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Григор Мкртчян](https://up.htmlacademy.ru/htmlcss-individual/2/user/2552419).
-* Наставник: `Неизвестно`.
+* Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
+* [Сайт личного проекта](https://grigormkr.github.io/2552419-sedona-2/)
 
 ---
 
