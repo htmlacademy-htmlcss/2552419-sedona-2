@@ -637,6 +637,7 @@ body {
 .academy-logo {
   display: flex;
   align-items: center;
+  height: 40px;
 }
 
 .academy-logo:focus {
@@ -1368,7 +1369,7 @@ body {
 
 .catalog-sort {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   min-height: 49px;
   margin-bottom: 40px;
 }
